@@ -14,6 +14,7 @@ public class ReadFile {
 		prop.load(f);
 		return prop;
 		
+		//System.out.println();
 	}
 
 }
