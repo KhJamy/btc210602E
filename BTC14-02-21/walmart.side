@@ -1,0 +1,42 @@
+{
+  "id": "235faa5c-43fe-43e7-97f8-2b51d1e211d4",
+  "version": "2.0",
+  "name": "walmart",
+  "url": "https://www.walmart.com/",
+  "tests": [{
+    "id": "42c9f50f-47ac-4769-8cfd-da3a915f3a51",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0aa0f816-bb9e-44b7-a421-f7522fcaebbe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0c0e7e0-f7c6-4143-9f05-cf97e2a44cdb",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[type='text'][name='query']",
+      "targets": [],
+      "value": "printer\\n"
+    }, {
+      "id": "eb79f08e-968a-4169-821a-b7741a5c985d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g_a.be_e.GlobalHeaderSearchbar-submit.g_c",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "88e7b45f-dab8-4293-bdb8-e87cafc0572b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["42c9f50f-47ac-4769-8cfd-da3a915f3a51"]
+  }],
+  "urls": ["https://www.walmart.com/"],
+  "plugins": []
+}

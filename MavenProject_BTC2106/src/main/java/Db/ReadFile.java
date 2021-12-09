@@ -16,5 +16,10 @@ public class ReadFile {
 		
 		//System.out.println();
 	}
-
+	
+	public void name() {
+		
+		System.out.println("hi");
+		
+	}
 }

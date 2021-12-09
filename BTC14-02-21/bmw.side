@@ -1,0 +1,35 @@
+{
+  "id": "b90d736a-4079-4b4c-8206-bc2547086bf3",
+  "version": "2.0",
+  "name": "bmw practice",
+  "url": "https://www.bmwusa.com/",
+  "tests": [{
+    "id": "9efc986a-aa72-4af6-8ee2-8e5102f39e38",
+    "name": "Untitled",
+    "commands": [{
+      "id": "26ffccb5-b6c0-47ca-8cbf-e9f349a13ed4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39da9af4-a9ca-4f8b-b242-5dedadbc7d97",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@name='Models Flyout']//span[text()='Models']",
+      "targets": [],
+      "value": "x4"
+    }]
+  }],
+  "suites": [{
+    "id": "9da0cb5b-431d-44ad-b5ad-0764e708a644",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9efc986a-aa72-4af6-8ee2-8e5102f39e38"]
+  }],
+  "urls": ["https://www.bmwusa.com/"],
+  "plugins": []
+}
