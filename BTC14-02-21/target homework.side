@@ -1,0 +1,112 @@
+{
+  "id": "d9e68a25-21e2-4ce9-9240-ad3616dc3aa5",
+  "version": "2.0",
+  "name": "target homework",
+  "url": "https://www.target.com/",
+  "tests": [{
+    "id": "54b3ba4c-262b-4b0a-82e8-197e659e8647",
+    "name": "Untitled",
+    "commands": [{
+      "id": "46500d1a-fcb6-4038-af7c-62405246a5d8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90175609-7b47-47f5-b034-f42bf1a15d0e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[text()='Categories']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c78d5e15-3315-4243-a26f-29bf3fa7c68c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@href='/c/kids/-/N-xcoz4']//div[@class='Row-uds8za-0 glDPjN']",
+      "targets": [],
+      "value": "kids\\n"
+    }, {
+      "id": "145fcbaf-113c-4a59-b83a-ce9e53872546",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@href='/c/toddler-clothing-kids/-/N-23cj2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6242bf8b-6e32-4b6f-87b1-d33877244780",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@href='/c/toddler-boys-clothing-kids/-/N-4uxip']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "675ac93f-4ee8-44b5-8478-f78c1fc3e6c2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@href='/c/coats-jackets-toddler-boys-clothing-kids/-/N-4tfpw']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18074308-91ac-4ab7-8ad4-22244a97f371",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//h1[@class='Heading__StyledHeading-sc-1mp23s9-0 dUBjVM h-margin-b-none']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e212be6a-58d1-4cb0-b8f6-010f0a3ddf90",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@href='/p/toddler-denim-trucker-jacket-levi-s-x-target/-/A-80676539?preselect=79961228#lnk=sametab' and @data-test='product-title']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88a7f2f6-f0bf-4360-aa8b-bafd2b1705e3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@data-test='custom-quantity-picker' and @type='button']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f876a22c-3545-4526-850e-9c6b5e55544c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@class='OptionLabel-u6t284-0 cIvTbA h-text-md' and text()=3]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f18757ff-aca6-4cee-b629-0dc187d885df",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[1]/div/div[4]/div/div[2]/div[3]/div[1]/div/div[3]/div[1]/div[2]/button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9e16bdb-bf33-4920-82a1-c99fab38c37c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@href='/co-cart']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df172c61-db16-4d78-ad14-8110400f8c90",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='button' and @aria-label='Save for later Toddler Denim Trucker Jacket - Levis x Target 3T']",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "40d66acc-9c7b-4285-8336-9ad3cd9068e2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["54b3ba4c-262b-4b0a-82e8-197e659e8647"]
+  }],
+  "urls": ["https://www.target.com/"],
+  "plugins": []
+}
